@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .time-block {
+    display: flex;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hour {
+    width: 80px;
+    padding: 10px;
+    background: #ddd;
+    text-align: center;
+  }
+  
+  textarea {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    resize: none;
+  }
+  
+  .saveBtn {
+    width: 60px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .saveBtn:hover {
+    background: #218838;
+  }
+  
+  .past {
+    background: #d3d3d3;
+  }
+  
+  .present {
+    background: #ff6961;
+  }
+  
+  .future {
+    background: #77dd77;
+  }
+  
